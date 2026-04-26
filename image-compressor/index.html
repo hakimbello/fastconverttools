@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Compress Image Online – Free, Fast & No Upload</title>
+<meta name="description" content="Compress images online free. Reduce image file size without losing quality. Works in your browser — no upload needed. JPG, PNG, WebP supported.">
+<link rel="canonical" href="https://fastconverttools.com/image-compressor/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4783768699070886" crossorigin="anonymous"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Image Compressor","applicationCategory":"UtilitiesApplication","offers":{"@type":"Offer","price":"0"},"operatingSystem":"Web"}</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}:root{--black:#0A0A0A;--white:#FAFAF8;--orange:#FF5C00;--gray:#6B6B6B;--gray-light:#F2F1EE;--border:#E5E4E0;--success:#16A34A}
+body{font-family:'DM Sans',sans-serif;background:var(--white);color:var(--black);line-height:1.6}
+nav{position:sticky;top:0;z-index:100;background:rgba(250,250,248,0.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 24px}
+.nav-inner{max-width:900px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-family:'Syne',sans-serif;font-weight:800;font-size:18px;color:var(--black);text-decoration:none}.logo span{color:var(--orange)}
+.nav-back{font-size:13px;color:var(--gray);text-decoration:none;font-weight:500}.nav-back:hover{color:var(--black)}
+.page{max-width:900px;margin:0 auto;padding:48px 24px}
+.ad-slot{width:100%;background:var(--gray-light);border:1px dashed var(--border);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--gray);font-size:12px;letter-spacing:0.05em;text-transform:uppercase;height:90px;margin-bottom:40px}
+.ad-middle{height:280px;background:var(--gray-light);border:1px dashed var(--border);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--gray);font-size:12px;text-transform:uppercase;margin-bottom:48px}
+.page-label{font-family:'Syne',sans-serif;font-size:11px;font-weight:700;letter-spacing:0.15em;color:var(--orange);text-transform:uppercase;margin-bottom:12px}
+.page-title{font-family:'Syne',sans-serif;font-size:clamp(28px,5vw,48px);font-weight:800;letter-spacing:-1.5px;line-height:1.1;margin-bottom:12px}
+.page-subtitle{font-size:16px;color:var(--gray);margin-bottom:32px}
+.badges{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:40px}
+.badge{display:inline-flex;align-items:center;gap:6px;background:#fff;border:1px solid var(--border);border-radius:20px;padding:5px 12px;font-size:12px;font-weight:500;color:var(--gray)}
+.badge-dot{width:6px;height:6px;background:var(--success);border-radius:50%}
+.privacy-banner{background:#F0FDF4;border:1px solid #BBF7D0;border-radius:12px;padding:14px 18px;margin-bottom:24px;display:flex;align-items:center;gap:10px}
+.privacy-banner p{font-size:13px;color:#166534;font-weight:500}
+.tool-card{background:#fff;border:1.5px solid var(--border);border-radius:20px;padding:40px;margin-bottom:40px}
+.upload-zone{border:2px dashed var(--border);border-radius:16px;padding:48px 24px;text-align:center;cursor:pointer;transition:all 0.2s;background:var(--gray-light);position:relative}
+.upload-zone:hover,.upload-zone.drag-over{border-color:var(--orange);background:#FFF5F0}
+.upload-icon{font-size:40px;margin-bottom:12px;display:block}
+.upload-title{font-family:'Syne',sans-serif;font-size:17px;font-weight:700;margin-bottom:6px}
+.upload-sub{font-size:13px;color:var(--gray);margin-bottom:16px}
+.upload-btn{display:inline-block;background:var(--black);color:#fff;padding:10px 24px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer}
+#file-input{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
+.compression-controls{display:none;margin-top:24px}
+.compression-controls.show{display:block}
+.quality-section{margin-bottom:20px}
+.quality-label{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.quality-title{font-size:14px;font-weight:600}
+.quality-value{font-family:'Syne',sans-serif;font-size:20px;font-weight:800;color:var(--orange)}
+input[type=range]{width:100%;height:6px;accent-color:var(--orange);cursor:pointer;border-radius:3px}
+.quality-hints{display:flex;justify-content:space-between;font-size:11px;color:var(--gray);margin-top:6px}
+.stats-row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-bottom:20px}
+.stat-box{background:var(--gray-light);border-radius:10px;padding:14px;text-align:center}
+.stat-label{font-size:11px;color:var(--gray);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px}
+.stat-value{font-family:'Syne',sans-serif;font-size:18px;font-weight:800}
+.stat-value.green{color:var(--success)}
+.compress-btn{width:100%;background:var(--orange);color:#fff;border:none;border-radius:12px;padding:16px;font-family:'Syne',sans-serif;font-size:16px;font-weight:700;cursor:pointer;transition:all 0.2s;margin-bottom:12px}
+.compress-btn:hover{background:#E54E00;transform:translateY(-1px)}
+.preview-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
+.preview-box{background:var(--gray-light);border-radius:10px;padding:10px;text-align:center}
+.preview-box-label{font-size:11px;font-weight:700;color:var(--gray);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:8px}
+.preview-box img{max-width:100%;max-height:140px;border-radius:6px;object-fit:contain}
+.download-btn{width:100%;background:var(--success);color:#fff;border:none;border-radius:12px;padding:16px;font-family:'Syne',sans-serif;font-size:16px;font-weight:700;cursor:pointer;display:block;text-align:center;text-decoration:none}
+.download-btn:hover{background:#15803D}
+.reset-btn{width:100%;background:none;border:1px solid var(--border);border-radius:12px;padding:12px;font-size:14px;font-weight:600;cursor:pointer;margin-top:10px;color:var(--gray);font-family:'DM Sans',sans-serif}
+.reset-btn:hover{border-color:var(--black);color:var(--black)}
+.content-section{margin-bottom:48px}
+.content-section h2{font-family:'Syne',sans-serif;font-size:clamp(20px,3vw,28px);font-weight:800;letter-spacing:-0.5px;margin-bottom:16px}
+.content-section p{font-size:15px;color:var(--gray);line-height:1.7;margin-bottom:12px}
+.steps{display:flex;flex-direction:column;gap:16px;margin-top:20px}
+.step{display:flex;gap:16px;align-items:flex-start}
+.step-num{width:32px;height:32px;background:var(--orange);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif;font-weight:700;font-size:13px;flex-shrink:0;margin-top:2px}
+.step-text h4{font-family:'Syne',sans-serif;font-weight:700;font-size:15px;margin-bottom:4px}
+.step-text p{font-size:14px;color:var(--gray);margin:0}
+.faq{display:flex;flex-direction:column}
+.faq-item{border-bottom:1px solid var(--border);padding:20px 0;cursor:pointer}
+.faq-item:first-child{border-top:1px solid var(--border)}
+.faq-q{display:flex;justify-content:space-between;align-items:center;gap:16px}
+.faq-q h3{font-family:'Syne',sans-serif;font-size:15px;font-weight:700}
+.faq-toggle{font-size:20px;color:var(--orange);transition:transform 0.2s}
+.faq-item.open .faq-toggle{transform:rotate(45deg)}
+.faq-a{display:none;padding-top:12px}.faq-item.open .faq-a{display:block}
+.faq-a p{font-size:14px;color:var(--gray);line-height:1.6}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-top:20px}
+.related-card{background:#fff;border:1.5px solid var(--border);border-radius:12px;padding:16px;text-decoration:none;color:var(--black);transition:all 0.2s;display:flex;align-items:center;gap:12px}
+.related-card:hover{border-color:var(--orange);transform:translateY(-2px)}
+.related-icon{font-size:22px}.related-text{font-family:'Syne',sans-serif;font-size:13px;font-weight:700}
+footer{background:var(--black);color:rgba(255,255,255,0.5);padding:40px 24px;text-align:center;font-size:13px}
+.footer-inner{max-width:900px;margin:0 auto}
+.footer-logo{font-family:'Syne',sans-serif;font-size:18px;font-weight:800;color:#fff;margin-bottom:16px}.footer-logo span{color:var(--orange)}
+.footer-links{display:flex;gap:20px;justify-content:center;margin-bottom:16px;flex-wrap:wrap}
+.footer-links a{color:rgba(255,255,255,0.5);text-decoration:none;font-size:13px}.footer-links a:hover{color:#fff}
+@media(max-width:640px){.page{padding:32px 16px}.tool-card{padding:24px}.stats-row{grid-template-columns:1fr 1fr}.preview-row{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<nav><div class="nav-inner"><a href="/" class="logo">Fast<span>Convert</span>Tools</a><a href="/" class="nav-back">← All Tools</a></div></nav>
+<div class="page">
+  <div class="ad-slot">Advertisement</div>
+  <div class="page-label">Image Tool</div>
+  <h1 class="page-title">Compress Image Online</h1>
+  <p class="page-subtitle">Reduce image file size without losing quality. Free, instant, runs in your browser. JPG, PNG, WebP supported.</p>
+  <div class="badges"><div class="badge"><div class="badge-dot"></div>100% Free</div><div class="badge"><div class="badge-dot"></div>No Upload</div><div class="badge"><div class="badge-dot"></div>Adjustable Quality</div><div class="badge"><div class="badge-dot"></div>100% Private</div></div>
+  <div class="privacy-banner"><span style="font-size:18px">🔒</span><p>Your images never leave your device. Compression runs 100% in your browser — completely private.</p></div>
+  <div class="tool-card">
+    <div class="upload-zone" id="upload-zone">
+      <input type="file" id="file-input" accept="image/*">
+      <span class="upload-icon">🗜️</span>
+      <div class="upload-title">Drop your image here</div>
+      <div class="upload-sub">JPG, PNG, WebP supported · Any size</div>
+      <div class="upload-btn">Choose Image</div>
+    </div>
+    <div class="compression-controls" id="compression-controls">
+      <div class="stats-row">
+        <div class="stat-box"><div class="stat-label">Original</div><div class="stat-value" id="orig-size">—</div></div>
+        <div class="stat-box"><div class="stat-label">Compressed</div><div class="stat-value green" id="comp-size">—</div></div>
+        <div class="stat-box"><div class="stat-label">Saved</div><div class="stat-value green" id="saved-pct">—</div></div>
+      </div>
+      <div class="quality-section">
+        <div class="quality-label"><span class="quality-title">Quality</span><span class="quality-value" id="quality-display">80%</span></div>
+        <input type="range" id="quality-slider" min="10" max="100" value="80">
+        <div class="quality-hints"><span>Smaller file</span><span>Better quality</span></div>
+      </div>
+      <button class="compress-btn" onclick="compressImage()">Compress Image →</button>
+      <div class="preview-row" id="preview-row" style="display:none">
+        <div class="preview-box"><div class="preview-box-label">Original</div><img id="preview-original" src="" alt="Original"></div>
+        <div class="preview-box"><div class="preview-box-label">Compressed</div><img id="preview-compressed" src="" alt="Compressed"></div>
+      </div>
+      <a class="download-btn" id="download-btn" style="display:none" href="#" download>⬇ Download Compressed Image</a>
+      <button class="reset-btn" id="reset-btn" style="display:none" onclick="resetTool()">Compress Another Image</button>
+    </div>
+  </div>
+  <div class="ad-middle">Advertisement</div>
+  <div class="content-section"><h2>Free Online Image Compressor</h2><p>Reduce your image file sizes by up to 80% without noticeable quality loss. Perfect for websites, social media, email attachments, and any situation where you need smaller image files that still look great.</p><p>Use the quality slider to find the perfect balance between file size and image quality. Everything runs in your browser — your images are never uploaded to any server.</p></div>
+  <div class="content-section"><h2>How to Compress an Image</h2><div class="steps"><div class="step"><div class="step-num">1</div><div class="step-text"><h4>Upload your image</h4><p>Click "Choose Image" or drag and drop. JPG, PNG, WebP all supported.</p></div></div><div class="step"><div class="step-num">2</div><div class="step-text"><h4>Adjust quality slider</h4><p>Move the slider to balance quality vs file size. 70–80% works great for most images.</p></div></div><div class="step"><div class="step-num">3</div><div class="step-text"><h4>Download compressed image</h4><p>Preview before and after, then click download to save your smaller file.</p></div></div></div></div>
+  <div class="content-section"><h2>Frequently Asked Questions</h2><div class="faq"><div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><h3>Is the image compressor free?</h3><span class="faq-toggle">+</span></div><div class="faq-a"><p>Yes, completely free. No account, no limits, no payment required.</p></div></div><div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><h3>Are my images uploaded to your server?</h3><span class="faq-toggle">+</span></div><div class="faq-a"><p>No. All compression happens in your browser. Your images never leave your device.</p></div></div><div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><h3>How much can I reduce image size?</h3><span class="faq-toggle">+</span></div><div class="faq-a"><p>Typically 40–80% reduction depending on the image and quality setting chosen.</p></div></div><div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><h3>What quality setting should I use?</h3><span class="faq-toggle">+</span></div><div class="faq-a"><p>70–80% quality works great for most uses — good visual quality with significant size reduction.</p></div></div></div></div>
+  <div class="content-section"><h2>More Free Tools</h2><div class="related-grid"><a href="/resize-image/" class="related-card"><div class="related-icon">↔️</div><div class="related-text">Resize Image</div></a><a href="/jpg-to-png/" class="related-card"><div class="related-icon">🖼️</div><div class="related-text">JPG to PNG</div></a><a href="/jpg-to-pdf/" class="related-card"><div class="related-icon">📄</div><div class="related-text">JPG to PDF</div></a><a href="/compress-pdf/" class="related-card"><div class="related-icon">📄</div><div class="related-text">Compress PDF</div></a><a href="/mp4-to-mp3/" class="related-card"><div class="related-icon">🎵</div><div class="related-text">MP4 to MP3</div></a><a href="/merge-pdf/" class="related-card"><div class="related-icon">📎</div><div class="related-text">Merge PDF</div></a></div></div>
+  <div class="ad-slot" style="height:90px;margin-bottom:0">Advertisement</div>
+</div>
+<footer><div class="footer-inner"><div class="footer-logo">Fast<span>Convert</span>Tools</div><div class="footer-links"><a href="/">Home</a><a href="/resize-image/">Resize Image</a><a href="/jpg-to-png/">JPG to PNG</a><a href="/compress-pdf/">Compress PDF</a><a href="/mp4-to-mp3/">MP4 to MP3</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></div><p>© 2026 FastConvertTools.com · Free image compressor online</p></div></footer>
+<script>
+let currentFile=null,originalSize=0;
+const zone=document.getElementById('upload-zone');
+const slider=document.getElementById('quality-slider');
+slider.addEventListener('input',()=>{document.getElementById('quality-display').textContent=slider.value+'%'});
+zone.addEventListener('dragover',e=>{e.preventDefault();zone.classList.add('drag-over')});zone.addEventListener('dragleave',()=>zone.classList.remove('drag-over'));
+zone.addEventListener('drop',e=>{e.preventDefault();zone.classList.remove('drag-over');if(e.dataTransfer.files[0])handleFile(e.dataTransfer.files[0])});
+document.getElementById('file-input').addEventListener('change',e=>{if(e.target.files[0])handleFile(e.target.files[0])});
+function handleFile(file){
+  currentFile=file;originalSize=file.size;
+  const reader=new FileReader();
+  reader.onload=ev=>{document.getElementById('preview-original').src=ev.target.result};
+  reader.readAsDataURL(file);
+  document.getElementById('orig-size').textContent=formatSize(file.size);
+  document.getElementById('comp-size').textContent='—';document.getElementById('saved-pct').textContent='—';
+  document.getElementById('compression-controls').classList.add('show');
+  document.getElementById('preview-row').style.display='none';document.getElementById('download-btn').style.display='none';document.getElementById('reset-btn').style.display='none';
+  zone.style.display='none';
+}
+function compressImage(){
+  if(!currentFile)return;
+  const quality=parseInt(slider.value)/100;
+  const reader=new FileReader();
+  reader.onload=ev=>{
+    const img=new Image();
+    img.onload=()=>{
+      const canvas=document.createElement('canvas');canvas.width=img.width;canvas.height=img.height;canvas.getContext('2d').drawImage(img,0,0);
+      const mimeType=currentFile.type==='image/png'?'image/png':'image/jpeg';
+      const dataUrl=canvas.toDataURL(mimeType,quality);
+      const byteString=atob(dataUrl.split(',')[1]);const ab=new ArrayBuffer(byteString.length);const ia=new Uint8Array(ab);for(let i=0;i<byteString.length;i++)ia[i]=byteString.charCodeAt(i);
+      const blob=new Blob([ab],{type:mimeType});const compSize=blob.size;
+      document.getElementById('comp-size').textContent=formatSize(compSize);
+      const saved=Math.round((1-compSize/originalSize)*100);document.getElementById('saved-pct').textContent=saved+'%';
+      document.getElementById('preview-compressed').src=dataUrl;document.getElementById('preview-row').style.display='grid';
+      const dlBtn=document.getElementById('download-btn');dlBtn.href=URL.createObjectURL(blob);
+      dlBtn.download=currentFile.name.replace(/\.[^.]+$/,'')+'_compressed'+(mimeType==='image/png'?'.png':'.jpg');
+      dlBtn.style.display='block';document.getElementById('reset-btn').style.display='block';
+    };img.src=ev.target.result;
+  };reader.readAsDataURL(currentFile);
+}
+function formatSize(bytes){if(bytes<1024)return bytes+'B';if(bytes<1024*1024)return(bytes/1024).toFixed(1)+'KB';return(bytes/(1024*1024)).toFixed(1)+'MB'}
+function resetTool(){currentFile=null;originalSize=0;zone.style.display='block';document.getElementById('compression-controls').classList.remove('show');document.getElementById('preview-row').style.display='none';document.getElementById('download-btn').style.display='none';document.getElementById('reset-btn').style.display='none';document.getElementById('file-input').value=''}
+function toggleFaq(el){el.classList.toggle('open')}
+</script>
+</body>
+</html>
